@@ -16,7 +16,7 @@ const URLForm = () => {
 
         try {
             // Send POST request using Axios to your backend
-            const response = await axios.post('http://localhost:8000/url', {
+            const response = await axios.post('https://link-snip.vercel.app/url', {
                 url,  // Sending the original URL in the request body
             });
 
